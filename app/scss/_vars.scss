@@ -25,3 +25,8 @@ $text: #272935;
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
 }
+@mixin fit {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
