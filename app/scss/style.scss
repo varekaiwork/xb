@@ -121,4 +121,65 @@
 .second-btn {
   border: 1px solid #fff;
 }
+
+.about {
+  background-color: #fafafa;
+  position: relative;
+}
+.about-left {
+  position: absolute;
+  left: 0;
+  top: 90px;
+}
+.about__inner {
+  min-height: 630px;
+  display: flex;
+  align-items: center;
+  z-index: 20;
+  position: relative;
+}
+.about__img {
+  margin-right: -400px;
+  z-index: 10;
+}
+.about__text {
+  max-width: 470px;
+  width: 100%;
+}
+.about__text-top {
+  color: #438aff;
+  @include f500;
+  position: relative;
+  line-height: 30px;
+  &::before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 30px;
+    bottom: 0;
+    left: 0;
+    background-color: $text;
+  }
+  margin-bottom: 5px;
+}
+.about__text-title {
+  font-size: 46px;
+  @include f500;
+  line-height: 54px;
+  color: $text;
+}
+.about__text-subtitle {
+  font-size: 27px;
+  line-height: 35px;
+  @include f500;
+  color: $text;
+}
+.about__text-main {
+  font-size: 16px;
+  color: #666666;
+  line-height: 32px;
+  p {
+    margin-bottom: 30px;
+  }
+}
 @import '_media';
