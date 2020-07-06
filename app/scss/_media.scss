@@ -225,6 +225,16 @@
     font-size: 36px;
     line-height: 40px;
   }
+  .cookie__content {
+    flex-wrap: wrap;
+  }
+  .cookie__left {
+    min-width: 100%;
+    margin-bottom: 10px;
+  }
+  .cookie__right {
+    min-width: 100%;
+  }
 }
 @media (max-width: 580px) {
   .services-top-title {

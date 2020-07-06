@@ -7,7 +7,22 @@ $(document).ready(function () {
       $('body, html').animate({ scrollTop: scrollTo + 'px' }, 800);
     }
   });
-
+  $('.users__slider').slick({
+    infinite: true,
+    dots: true,
+    arrows: false,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    responsive: [
+      {
+        breakpoint: 1250,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  });
   $('.header__btn').click(function () {
     $('.header__btn').toggleClass('active');
     $('.menu__list').toggleClass('open');
