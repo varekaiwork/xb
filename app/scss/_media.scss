@@ -107,9 +107,13 @@
   }
 }
 @media (max-width: 1180px) {
+  .contact {
+    padding-bottom: 50px;
+  }
   .contact__box {
     flex-wrap: wrap;
   }
+
   .contact__left {
     width: 100%;
     height: auto;
@@ -128,7 +132,7 @@
     width: 50%;
   }
   .contact__text {
-    margin-top: 0;
+    margin-top: 20px;
   }
   .contact__info-address.contact__info-item {
     margin-bottom: 0;
@@ -260,6 +264,12 @@
   form button {
     padding: 15px 46px;
     right: -5px;
+  }
+  .users__inner {
+    padding: 20px 0;
+  }
+  .slick-dots {
+    margin-top: 40px;
   }
 }
 
